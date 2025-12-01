@@ -1,0 +1,6 @@
+num=[4,12,11,-5,8]
+small=big=num[0]
+for i in nums[1:]:
+  if i<small:small=i
+  if i>big:big=i
+print(small,big)
